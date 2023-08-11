@@ -26,4 +26,4 @@ We have our rectangle, ie, a range of allowed (x, y)
 We use standard binary tree searching methods to reach the nodes which is a subset of the range of x. If the x-values are checked, we enter the
 auxiliary list of the particular node, and binary search the list of y's. Then, we add those nodes to our answer list.
 
-Total query time = $O(k + n (log n )^2)$, where k is the size of answer list
+Total query time = $O(k + (log n )^2)$, where k is the size of answer list
